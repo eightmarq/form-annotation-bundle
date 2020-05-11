@@ -1,0 +1,27 @@
+{
+    "name": "eightmarq/form-annotation-bundle",
+    "description": "Build Symfony forms with annotation",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Norbert Schvoy",
+            "email": "norbert.schvoy@eightmarq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EightMarq\\FormAnnotationBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "EightMarq\\FormAnnotationBundle\\Tests\\": "tests/" }
+    },
+    "require": {
+        "php": "^7.4",
+        "symfony/framework-bundle": "^5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    }
+}
